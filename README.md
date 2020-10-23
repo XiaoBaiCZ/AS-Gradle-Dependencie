@@ -94,6 +94,8 @@ implementation 'com.github.bumptech.glide:compiler:+'
 
 # 我的工具
 ~~~
+//地址
+maven { url 'https://jitpack.io' }
 //权限
 implementation 'com.github.XiaoBaiCZ:Permissions:v0.1'
 //列表扩展
