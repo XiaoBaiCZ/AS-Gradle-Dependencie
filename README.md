@@ -3,91 +3,100 @@
 
 # AndroidX
 ~~~
-'androidx.appcompat:appcompat:+'
+implementation 'androidx.appcompat:appcompat:+'
 ~~~
 
 # KTX
 ~~~
-'androidx.core:core-ktx:+'
+implementation 'androidx.core:core-ktx:+'
 ~~~
 
 # MaterialDesign
 ~~~
-'com.google.android.material:material:+'
+implementation 'com.google.android.material:material:+'
 ~~~
 
 # Jetpack
 ~~~
 //lifecycle
-'androidx.lifecycle:lifecycle-runtime:+'
+implementation 'androidx.lifecycle:lifecycle-runtime:+'
 //livedata
-'androidx.lifecycle:lifecycle-livedata:+'
+implementation 'androidx.lifecycle:lifecycle-livedata:+'
 //viewmode
-'androidx.lifecycle:lifecycle-viewmodel:+'
+implementation 'androidx.lifecycle:lifecycle-viewmodel:+'
 
 //viewmode + livedata + lifecycle
-'androidx.lifecycle:lifecycle-extensions:+'
+implementation 'androidx.lifecycle:lifecycle-extensions:+'
 
 //navigation
-'androidx.navigation:navigation-fragment-ktx:+'
-'androidx.navigation:navigation-ui-ktx:+'
+implementation 'androidx.navigation:navigation-fragment-ktx:+'
+implementation 'androidx.navigation:navigation-ui-ktx:+'
 
 //room
-'androidx.room:room-runtime:+'
+implementation 'androidx.room:room-runtime:+'
 //kapt
-'androidx.room:room-compiler:+'
+implementation 'androidx.room:room-compiler:+'
 //coroutine support
-'androidx.room:room-ktx:+'
+implementation 'androidx.room:room-ktx:+'
 
 //work
-'androidx.work:work-runtime:+'
+implementation 'androidx.work:work-runtime:+'
 //coroutine
-'androidx.work:work-runtime-ktx:+'
+implementation 'androidx.work:work-runtime-ktx:+'
 ~~~
 
 # Coroutine
 ~~~
-'org.jetbrains.kotlinx:kotlinx-coroutines-core:+'
-'org.jetbrains.kotlinx:kotlinx-coroutines-android:+'
+implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:+'
+implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:+'
 ~~~
 
 # ConstraintLayout
 ~~~
-'androidx.constraintlayout:constraintlayout:+'
+implementation 'androidx.constraintlayout:constraintlayout:+'
 ~~~
 
 # Gson
 ~~~
-'com.google.code.gson:gson:+'
+implementation 'com.google.code.gson:gson:+'
 ~~~
 
 # okhttp
 ~~~
-'com.squareup.okhttp3:okhttp:+'
+implementation 'com.squareup.okhttp3:okhttp:+'
 ~~~
 
 # Retroft
 ~~~
-'com.squareup.retrofit2:retrofit:+'
+implementation 'com.squareup.retrofit2:retrofit:+'
 //gson
-'com.squareup.retrofit2:converter-gson:+'
+implementation 'com.squareup.retrofit2:converter-gson:+'
 //jackson
-'com.squareup.retrofit2:converter-jackson:+'
+implementation 'com.squareup.retrofit2:converter-jackson:+'
 //moshi
-'com.squareup.retrofit2:converter-moshi:+'
+implementation 'com.squareup.retrofit2:converter-moshi:+'
 //protobuf
-'com.squareup.retrofit2:converter-protobuf:+'
+implementation 'com.squareup.retrofit2:converter-protobuf:+'
 //wire
-'com.squareup.retrofit2:converter-wire:+'
+implementation 'com.squareup.retrofit2:converter-wire:+'
 //simplexml
-'com.squareup.retrofit2:converter-simplexml:+'
+implementation 'com.squareup.retrofit2:converter-simplexml:+'
 //scalars
-'com.squareup.retrofit2:converter-scalars:+'
+implementation 'com.squareup.retrofit2:converter-scalars:+'
 ~~~
 
 # Glide
 ~~~
-'com.github.bumptech.glide:glide:+'
+implementation 'com.github.bumptech.glide:glide:+'
 //annotationProcessor
-'com.github.bumptech.glide:compiler:+'
+implementation 'com.github.bumptech.glide:compiler:+'
 ~~~
+
+# 我的工具
+~~~
+//权限
+implementation 'com.github.XiaoBaiCZ:Permissions:v0.1'
+//列表扩展
+implementation 'com.github.XiaoBaiCZ:RecyclerViewExtend:v0.3'
+//小工具
+implementation 'com.github.XiaoBaiCZ:Helper:v0.3.2'
